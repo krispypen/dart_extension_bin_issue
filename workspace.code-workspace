@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "packages/tools",
+      "path": "packages/tools"
+    },
+    {
+      "name": "packages/packageA",
+      "path": "packages/packageA"
+    }
+  ],
+  "settings": {
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "dart.lineLength": 120,
+    // Remove .fvm files from search
+    "search.exclude": {
+      "**/.fvm": true,
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+      "**/.fvm": true,
+    }
+  }
+}
